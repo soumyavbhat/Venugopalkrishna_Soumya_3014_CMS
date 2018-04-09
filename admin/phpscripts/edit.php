@@ -23,7 +23,7 @@ if($img['type'] == "image/jpg" || $img['type'] == "image/jpeg"){ // important, t
       // echo "file transfer complete";
       $th_copy = "../../images/th_{$img['name']}";
       if(!copy($targetpath, $th_copy)){
-        $message = "It didn't work";
+        $message = "It didn't work, Try again later!";
         return $message;
       }
       list( $width,$height ) = getimagesize($targetpath);
@@ -67,7 +67,7 @@ $qstring .= "WHERE {$col}={$id}";
 $updatequery = mysqli_query($link, $qstring);
 
 if($updatequery) {
-  header("Location:../admin_movie?id=1.php");
+  header("Location:../admin_movie.php?id={$id}");
 }else{
   echo "There was a problem";
 }

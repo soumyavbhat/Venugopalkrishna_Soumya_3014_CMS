@@ -19,7 +19,7 @@ if($image['type'] == "image/jpg" || $image['type'] == "image/jpeg"){
 
 		 list( $width,$height ) = getimagesize($targetpath);
 		 $widthchanged = 350;
-		 $heightchanged = 350;
+		 $heightchanged = 600;
 
 		 $thumb = imagecreatetruecolor( $widthchanged, $heightchanged );
 		 $source = imagecreatefromjpeg($th_copy);
@@ -68,7 +68,7 @@ $deletequery = mysqli_query($link, $delete);
 // echo $delete;
 if($deletequery)
 {
-  redirect_to('../admin_movie.php');
+  redirect_to('../admin_movie.php?id=1');
 
 }
 else{

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 09, 2018 at 01:01 AM
+-- Generation Time: Apr 09, 2018 at 05:31 AM
 -- Server version: 5.7.19
 -- PHP Version: 7.1.9
 
@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS `tbl_movies` (
   `movies_year` int(11) NOT NULL,
   `movies_director` varchar(50) NOT NULL,
   PRIMARY KEY (`movies_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_movies`
@@ -88,21 +88,19 @@ INSERT INTO `tbl_movies` (`movies_id`, `movies_name`, `movies_img`, `movies_desc
 (10, 'Gringo', 'gringo.jpg', 'GRINGO, a dark comedy mixed with white-knuckle action and dramatic intrigue, explores the battle of survival for businessman Harold Soyinka (David Oyelowo) when he finds himself crossing the line from law-abiding citizen to wanted criminal.', 'Joel Edgerton, Charlize Theron, David Oyelowo', '6', 2018, 'Nash Edgerton'),
 (11, 'Kingsman', 'kingsman.jpg', 'A spy organization recruits an unrefined, but promising street kid into the agency\'s ultra-competitive training program, just as a global threat emerges from a twisted tech genius.\r\n', 'Colin Firth, Taron Egerton, Samuel L. Jackson', '7.7', 2017, 'Matthew Vaughn'),
 (12, 'La La Land', 'lalaland', 'While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.\r\n', 'Ryan Gosling, Emma Stone, Rosemarie DeWitt ', '8.1', 2015, 'Damien Chazelle'),
-(13, 'Storks', 'storks.jpg', '', '', '0', 0, ''),
-(14, 'Pride and Prejudice and Zombies', 'prideandprejudiceandzombies.jpg\r\n', '', '', '0', 0, ''),
-(15, 'The Shining', 'theshining', '', '', '0', 0, ''),
-(16, 'Lorax', 'lorax.jpg', '', '', '0', 0, ''),
-(17, 'Annabelle', 'annabelle.jpg', '', '', '0', 0, ''),
-(18, 'Rio', 'rio.jpg', '', '', '0', 0, ''),
-(19, 'Jigsaw', 'jigsaw.jpg', '', '', '0', 0, ''),
-(20, 'Now You See Me', 'nowyouseeme.jpg', '', '', '0', 0, ''),
-(21, 'Mystic River', 'mysticriver.jpg', '', '', '0', 0, ''),
-(22, 'Taken', 'taken.jpg', '', '', '0', 0, ''),
-(23, 'Hannibal', 'hannibal.jpg', '', '', '0', 0, ''),
-(24, 'Zodiac', 'zodiac.jpg', '', '', '0', 0, ''),
-(25, 'Now You See Me 2', 'nowyouseeme2.jpg', '', '', '0', 0, ''),
-(28, 'The Sixth Sense', 'sixthsense.jpg', 'okay', 'Bruce Willis, Haley Joel Osment, Toni Collette', '8.6', 1999, 'M. Night Shyamalan'),
-(29, 'The sixth sense', 'sixthsense.jpg', 'abc', 'abc', 'abc', 0, 'abc');
+(13, 'Storks', 'storks.jpg', 'Storks have moved on from delivering babies to packages. But when an order for a baby appears, the best delivery stork must scramble to fix the error by delivering the baby.', 'Andy Samberg, Katie Crown, Kelsey Grammer', '6.8', 2016, 'Nicholas Stoller, Doug Sweetland'),
+(14, 'Pride and Prejudice and Zombies', 'prideandprejudiceandzombies.jpg', 'Five sisters in 19th century England must cope with the pressures to marry while protecting themselves from a growing population of zombies.', 'Lily James, Sam Riley, Jack Huston ', '5.8', 2016, 'Burr Steers'),
+(15, 'The Shining', 'theshining.jpg', 'A family heads to an isolated hotel for the winter where an evil spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.', ' Jack Nicholson, Shelley Duvall, Danny Lloyd ', '8.4', 1980, ' Stanley Kubrick'),
+(16, 'Lorax', 'lorax.jpg', 'A 12-year-old boy searches for the one thing that will enable him to win the affection of the girl of his dreams. To find it he must discover the story of the Lorax, the grumpy yet charming creature who fights to protect his world.', ' Zac Efron, Taylor Swift, Danny DeVito ', '6.4', 2012, ' Chris Renaud, Kyle Balda '),
+(17, 'Annabelle', 'annabelle.jpg', '12 years after the tragic death of their little girl, a dollmaker and his wife welcome a nun and several girls from a shuttered orphanage into their home, where they soon become the target of the dollmaker&#039;s possessed creation, Annabelle.', 'Anthony LaPaglia, Samara Lee, Miranda Otto ', '6.6', 2017, 'David F. Sandberg'),
+(31, 'Rio', 'rio.jpg', 'When Blu, a domesticated macaw from small-town Minnesota, meets the fiercely independent Jewel, he takes off on an adventure to Rio de Janeiro with the bird of his dreams.', 'Jesse Eisenberg, Anne Hathaway, George Lopez ', '6.9', 2011, ' Carlos Saldanha'),
+(32, 'Jigsaw', 'jigsaw.jpg', 'Bodies are turning up around the city, each having met a uniquely gruesome demise. As the investigation proceeds, evidence points to one suspect: John Kramer, the man known as Jigsaw, who has been dead for over 10 years.', ' Matt Passmore, Tobin Bell, Callum Keith Rennie ', '5.8', 2017, 'Michael Spierig, Peter Spierig'),
+(33, 'Now You See Me', 'nowyouseeme.jpg', 'An F.B.I. Agent, and an Interpol Detective, track a team of illusionists, who pull off bank heists during their performances, and reward their audiences with the money.', ' Jesse Eisenberg, Common, Mark Ruffalo', '7.3', 2013, 'Louis Leterrier'),
+(34, 'Mystic River', 'mysticriver.jpg', 'The lives of three men who were childhood friends are shattered when one of them has a family tragedy.', ' Sean Penn, Tim Robbins, Kevin Bacon ', '8', 2003, 'Clint Eastwood'),
+(35, 'Taken', 'taken.jpg', 'A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.', ' Liam Neeson, Maggie Grace, Famke Janssen', '7.8', 2008, 'Pierre Morel'),
+(23, 'Hannibal', 'hannibal.jpg', 'iving in exile, Hannibal Lecter tries to reconnect with now disgraced F.B.I. Agent Clarice Starling, and finds himself a target for revenge from a powerful victim.', ' Anthony Hopkins, Julianne Moore, Gary Oldman', '6.8', 2001, ' Ridley Scott'),
+(24, 'Zodiac', 'zodiac.jpg', 'In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.', ' Jake Gyllenhaal, Robert Downey Jr., Mark Ruffalo', '7.7', 2007, 'David Fincher'),
+(25, 'Now You See Me 2', 'nowyouseeme2.jpg', 'The Four Horsemen resurface, and are forcibly recruited by a tech genius to pull off their most impossible heist yet.', ' Jesse Eisenberg, Mark Ruffalo, Woody Harrelson', '6.5', 2016, 'Jon M Chu');
 
 -- --------------------------------------------------------
 
