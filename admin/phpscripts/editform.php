@@ -25,12 +25,12 @@ echo "<input hidden name=\"id\" value=\"{$id}\" >";
       echo "<label class=\'l\'>{$fieldName}</label>";
 if($fieldName == 'movies_img')
 {
-  echo "<img class=\"editimage\" src=\"../images/{$getResult[$i]}\">
-  <input type=\"file\" name=\"{$fieldName}\" value=\"\"";
+  echo "<img class=\"editimage \" src=\"../images/{$getResult[$i]}\"><br>
+  <input class=\"i\"  type=\"file\" name=\"{$fieldName}\" value=\"\"><br>";
 }
       elseif($fieldType != "252")
       {
-        echo "<input class=\'i\' type=\"text\" name=\"{$fieldName}\" value=\"{$getResult[$i]}\"><br>";
+        echo "<input class=\"i\" type=\"text\" name=\"{$fieldName}\" value=\"{$getResult[$i]}\"><br>";
       }
       else{
         echo "<textarea class=\"i\" type=\"text\" name=\"{$fieldName}\">{$getResult[$i]}</textarea><br>";

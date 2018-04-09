@@ -18,7 +18,7 @@
     echo $message;
   } ?>
 
-  <div class="container3 bg3">
+  <div class="container3 bg3 scroll">
     <?php
     if(isset($_GET['id']))
     {

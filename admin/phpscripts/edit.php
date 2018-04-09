@@ -27,13 +27,13 @@ if($img['type'] == "image/jpg" || $img['type'] == "image/jpeg"){ // important, t
         return $message;
       }
       list( $width,$height ) = getimagesize($targetpath);
-      $newwidth = 350;
-      $newheight = 350;
+      $widthchanged = 350;
+      $heightchanged = 600;
 
-      $thumb = imagecreatetruecolor( $newwidth, $newheight );
+      $thumb = imagecreatetruecolor( $widthchanged, $heightchanged );
       $source = imagecreatefromjpeg($th_copy);
 
-      imagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
+      imagecopyresized($thumb, $source, 0, 0, 0, 0, $widthchanged, $heightchanged, $width, $height);
       imagejpeg( $thumb, $th_copy, 100 );
 
       $out_image=addslashes(file_get_contents($th_copy));
@@ -67,9 +67,9 @@ $qstring .= "WHERE {$col}={$id}";
 $updatequery = mysqli_query($link, $qstring);
 
 if($updatequery) {
-  header("Location:../admin_index.php");
+  header("Location:../admin_movie?id=1.php");
 }else{
-  echo "A problem has been found, try again lattteee";
+  echo "There was a problem";
 }
 
 mysqli_close($link);

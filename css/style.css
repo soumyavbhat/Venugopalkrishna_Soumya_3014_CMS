@@ -117,10 +117,9 @@ body {
   .contentSection h3 {
     margin-top: 1vh; }
 
-img::last-child {
+.contentSection img::last-child {
   margin-right: 20px; }
-
-img:hover {
+.contentSection img:hover {
   transition: .1s;
   border-radius: 10px;
   box-shadow: 0px 0px 5px grey;
@@ -186,11 +185,9 @@ a:hover {
 
 .editimage {
   display: block;
-  width: 50%; }
+  width: 10%; }
 
-.editimage:hover {
-  display: block;
-  filter: scale(1, 1);
-  border-radius: 0px; }
+.scroll {
+  overflow-y: scroll; }
 
 /*# sourceMappingURL=style.css.map */

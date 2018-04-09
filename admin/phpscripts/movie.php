@@ -18,12 +18,12 @@ if($image['type'] == "image/jpg" || $image['type'] == "image/jpeg"){
 		 echo $size[1]; // check the php.net for getimagesize
 
 		 list( $width,$height ) = getimagesize($targetpath);
-		 $newwidth = 350;
-		 $newheight = 350;
+		 $widthchanged = 350;
+		 $heightchanged = 350;
 
-		 $thumb = imagecreatetruecolor( $newwidth, $newheight );
+		 $thumb = imagecreatetruecolor( $widthchanged, $heightchanged );
 		 $source = imagecreatefromjpeg($th_copy);
-		 imagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
+		 imagecopyresized($thumb, $source, 0, 0, 0, 0, $widthchanged, $heightchanged, $width, $height);
 		 imagejpeg( $thumb, $th_copy, 100 );
 
 		 $out_image=addslashes(file_get_contents($th_copy));
