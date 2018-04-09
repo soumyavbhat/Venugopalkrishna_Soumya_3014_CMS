@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #C1B285;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.sidebar {
+  width: 20vw;
+  float: left;
+  height: 100vh;
+  position: fixed;
+  background-color: #696B46; }
+
+.allbutton {
+  margin-top: 30%; }
+
+.sidebutton {
+  cursor: pointer;
+  font-family: "Roboto";
+  width: 100%;
+  padding: 5% 0;
+  text-align: center;
+  background-color: #696B46;
+  color: #E8EEED;
+  text-transform: uppercase; }
+
+.sidebutton:hover {
+  background-color: #C1B285;
+  color: #696B46; }
+
+.sidebutton:active {
+  background-color: #C1B285;
+  color: #696B46; }
+
+.sidebutton:target {
+  background-color: #C1B285;
+  color: #696B46; }
+
+.container {
+  margin-left: 20vw;
+  width: 80vw;
+  overflow: hidden; }
+  .container .moviescontainer {
+    white-space: nowrap;
+    width: calc((200px + 0px) * 16 + 20px);
+    height: 40vh;
+    will-change: transition;
+    transition: 70ms all;
+    margin-left: 5vw; }
+    .container .moviescontainer img {
+      float: left;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px grey;
+      width: 3%;
+      margin: 3% .1%;
+      opacity: 0.8;
+      filter: alpha(opacity=80); }
+
+.contentSection {
+  clear: both;
+  margin-left: 20vw;
+  width: 80vw;
+  padding: 2%; }
+  .contentSection h1 {
+    text-transform: uppercase;
+    color: #696B46;
+    font-size: 2vw;
+    border-bottom: 1px solid #696B46; }
+  .contentSection h3 {
+    margin-top: 1vh; }
+
+img::last-child {
+  margin-right: 20px; }
+
+img:hover {
+  transition: .1s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px grey;
+  transform: scale(1.03, 1.03);
+  opacity: 1;
+  filter: alpha(opacity=100);
+  display: block; }
+
+.leftright {
+  margin-top: 25vh;
+  position: fixed;
+  z-index: 2; }
+
+.right {
+  margin-left: 65vw;
+  cursor: pointer;
+  color: white;
+  padding: 2%; }
+
+.left {
+  cursor: pointer;
+  color: white;
+  float: left;
+  padding: 2%; }
+
+.right:hover {
+  transition: .2s;
+  color: white;
+  background-color: #696B46; }
+
+.left:hover {
+  transition: .2s;
+  color: white;
+  background-color: #696B46; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:hover {
+  text-decoration: none;
+  color: inherit; }
+
+.moviebuttons {
+  clear: both;
+  margin-left: 20vw;
+  width: 80vw;
+  padding: 2%;
+  margin-top: -10%; }
+
+.button {
+  background-color: #4B3831;
+  color: white;
+  padding: 1%;
+  width: 12%;
+  text-align: center;
+  margin-top: 10%;
+  float: left;
+  margin-left: 5%;
+  overflow: hidden;
+  font-size: .8vw;
+  font-family: 'Merriweather', serif; }
+
+.editimage {
+  display: block;
+  width: 50%; }
+
+.editimage:hover {
+  display: block;
+  filter: scale(1, 1);
+  border-radius: 0px; }
+
+/*# sourceMappingURL=style.css.map */

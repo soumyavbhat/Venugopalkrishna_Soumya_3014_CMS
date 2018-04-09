@@ -1,0 +1,333 @@
+body{
+  /* background: url(../images/login_bg.jpg) no-repeat center center fixed; */
+  background-color: #C1B285;
+
+  /* width: 100vw;
+  height: 100vh; */
+  /* overflow: hidden; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+width: 70%;
+/* background-color: white; */
+margin: 0 auto;
+margin-top: 8%;
+background-color: #F1F1F1;
+border-radius: 3px;
+  box-shadow: 0 0 5px #696B46;
+  overflow: hidden;
+  height: auto;
+}
+
+h3{
+  font-size: .6vw;
+  color: #4B3831;
+padding: 10px;
+font-family: 'Merriweather', serif;
+
+}
+
+.login{
+  width: 50%;
+  font-family: 'Merriweather', serif;
+  /* padding: 5px; */
+  float: left;
+  /* background-color: blue; */
+
+}
+.login h1{
+  font-size: 1.5vw;
+  text-align: center;
+  color: #696B46;
+  /* letter-spacing: 3px; */
+  text-transform: uppercase;
+
+}
+
+.login p{
+  font-size: 1vw;
+  text-align: center;
+  color: #4B3831;
+  margin-bottom: 5%;
+}
+
+.login h3{
+  height: 10px;
+  text-align: center;
+  color: #4B3831;
+}
+
+.l{
+  float: left;
+  width: 30%;
+}
+
+input{
+  /* float: left; */
+  width: 50%;
+  margin-left: 20%;
+  border: 0px;
+  border-bottom: 1px solid #696B46;
+  margin-bottom: 15px;
+  background-color: inherit;
+  color: #696B46;
+  padding: 5px;
+
+}
+
+input:focus
+{
+  /* box-shadow: 0 0 5px #696B46; */
+  outline: none;
+}
+
+select{
+    width: 50%;
+    margin-left: 20%;
+    border: 0px;
+    border-bottom: 1px solid #696B46;
+    margin-bottom: 15px;
+    background-color: inherit;
+    color: #696B46;
+    padding: 5px;
+}
+
+.submit{
+  margin-top: 15%;
+  background-color: #C1B285;
+  padding: 10px;
+  border: 0px;
+  width: 40%;
+  box-shadow: 1px 1px 3px #696B46;
+margin-left: 30%;
+}
+
+.log{
+  width: 50%;
+  background-image: url('../images/login2.jpg');
+  float: left;
+  height: 65vh;
+  background-position: center;
+}
+
+.log h1{
+  color: #E8EEED;
+  padding: 10px;
+   text-shadow: 1px 1px 3px #696B46;
+   margin-top: 15%;
+}
+
+.log p{
+  margin-top: 5%;
+  color: #E8EEED;
+  padding: 10px;
+}
+
+.log img{
+  width: 20%;
+  margin-left: -4%;
+}
+
+.bg{
+  background-image: url('../images/homedecor.jpg');
+  /* height: auto; */
+  background-repeat: no-repeat;
+  color: #696B46;
+  font-family: 'Merriweather', serif;
+}
+.signout{
+  /* float: right;
+  margin-right: 5%;
+  padding: 2%; */
+}
+
+.bg h2{
+  color: #696B46;
+  /* padding: 10px; */
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.bg h3{
+  font-size: 1.5vw;
+  text-align: right;
+  /* padding: 10px; */
+  margin-right: 5%;
+
+}
+
+.bg2{
+  /* background-image: url('../images/homedecor.jpg'); */
+  height: 75vh;
+  background-repeat: no-repeat;
+  color: #696B46;
+  font-family: 'Merriweather', serif;
+}
+
+
+.bg2 h2{
+  color: #696B46;
+  /* padding: 10px; */
+  text-align: center;
+  /* margin-left: 5%; */
+  margin-top: 5%;
+}
+
+.bg2 h3{
+  font-size: 1.5vw;
+  text-align: left;
+  /* padding: 10px; */
+  margin-left: 5%;
+
+}
+.container3{
+width: 70%;
+/* background-color: white; */
+margin: 0 auto;
+margin-top: 2%;
+background-color: #F1F1F1;
+border-radius: 3px;
+  box-shadow: 0 0 5px #696B46;
+  overflow: hidden;
+  height: auto;
+}
+
+.container3 input{
+}
+.bg3{
+  /* background-image: url('../images/homedecor.jpg'); */
+  height: 85vh;
+  background-repeat: no-repeat;
+  color: #696B46;
+  font-family: 'Merriweather', serif;
+  padding: 2%;
+}
+
+
+.bg3 h2{
+  color: #696B46;
+  /* padding: 10px; */
+  text-align: center;
+  /* margin-left: 5%; */
+  margin-top: 5%;
+}
+
+.bg3 h3{
+  font-size: 1.5vw;
+  text-align: left;
+  /* padding: 10px; */
+  margin-left: 5%;
+
+}
+.i{
+  float: left;
+margin-left: 50%;
+}
+
+.newMovie{
+  background-color: #4B3831;
+  color: white;
+  padding: 2%;
+  width: 15%;
+  text-align: center;
+  font-size: 1vw;
+  font-family: 'Merriweather', serif;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+
+.userbg{
+
+  height: 75vh;
+  background-repeat: no-repeat;
+  color: #696B46;
+  font-family: 'Merriweather', serif;
+}
+
+.lastlog {
+  /* border-top: 1px solid  #696B46; */
+  margin-top: 10%;
+}
+
+.button{
+  background-color: #4B3831;
+  color: white;
+  padding: 1%;
+  width: 12%;
+  text-align: center;
+  margin-top: 10%;
+  float: left;
+  margin-left: 5%;
+  overflow: hidden;
+  font-size: .8vw;
+  font-family: 'Merriweather', serif;
+}
+
+
+.buttonlg{
+  background-color: #4B3831;
+  color: white;
+  padding: 2%;
+  width: 15%;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 40%;
+  /* float: left; */
+  /* overflow: hidden; */
+  font-size: 1vw;
+  font-family: 'Merriweather', serif;
+}
+
+
+.button:hover{
+  transition: .5s;
+  margin-top: 9.5%;
+  /* padding-top: 2.5%; */
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.regbutton input{
+  background-color: #4B3831;
+  color: white;
+  padding: 2%;
+  width: 15%;
+  text-align: center;
+  font-size: 1vw;
+  font-family: 'Merriweather', serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.reg{
+  margin-top: 8%;
+}
+
+table{
+  margin-left: 30%;
+}
+
+
+table, th, td{
+
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  th, td {
+    width: 20%;
+
+      padding: 2%;
+      text-align: center;
+
+}
